@@ -1,0 +1,10 @@
+streamlit
+pillow
+matplotlib
+pandas
+resend
+ultralytics
+opencv-python-headless
+numpy
+openai
+reportlab
