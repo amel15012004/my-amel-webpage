@@ -9,3 +9,6 @@ numpy
 openai
 reportlab
 YOLO
+cv2
+ASSETS
+SETTINGS
