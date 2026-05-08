@@ -22,7 +22,7 @@ from reportlab.lib.styles import getSampleStyleSheet
 # =======================
 # 🔑 model
 # =======================
-model = YOLO("D:/bakhouch/DentAI/best.pt")
+model = YOLO("best.pt")
 client = OpenAI(api_key="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")
 
 
@@ -950,7 +950,7 @@ def get_base64_image(image_path):
         return base64.b64encode(f.read()).decode()
 
 
-bg = get_base64_image("C:/Users/computer house 41/Desktop/logo/10.png")
+bg = get_base64_image("logo/10.png")
 
 # =======================
 # 🎨 CSS
@@ -1127,7 +1127,7 @@ with col1:
 
     with c1:
         try:
-            st.image("C:/Users/computer house 41/Desktop/logo/0.png", width=60)
+            st.image("logo/0.png", width=60)
         except Exception:
             st.write("🦷")
 
