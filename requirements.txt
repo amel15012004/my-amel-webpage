@@ -12,3 +12,5 @@ YOLO
 cv2
 ASSETS
 SETTINGS
+torch
+torchvision
